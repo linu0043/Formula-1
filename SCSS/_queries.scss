@@ -1,0 +1,56 @@
+@media screen and (max-width: 1465px){
+    body #main_Index #contentWrapper .content h4{
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 1365px){
+    body #main_Index{
+        padding: 40px 100px;
+    }
+    body #main_Index #contentWrapper .content h4{
+        font-size: 1.4vw;
+    }
+    body header>div div nav{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1165px){
+    body #main_Index #contentWrapper .content h3{
+        font-size: 2vw;
+    }
+    body #main_Index #contentWrapper .content .track img{
+        max-width: 100%;
+    }
+    body #mainTitle h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 1065px){
+    body header>div div nav{
+        width: 400px;
+    }
+    body #main_Index #contentWrapper{
+        flex-direction: column;
+        .content{
+            width: 100%;
+        }
+    }
+    body #main_Index{
+        position: static;
+        margin-top: 75px;
+    }
+    body #main_Index #contentWrapper .content .driver-team:last-child{
+        margin-bottom: 30px;
+    }
+    body #main_Index #contentWrapper .content{
+        h4{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 26px;
+        }
+    }
+}
+@media screen and (max-width: 1000px){
+
+}

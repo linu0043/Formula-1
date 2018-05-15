@@ -1,0 +1,48 @@
+%driver-team-text-styling{
+    color: #fafafa;
+    font-family: arial;
+    text-decoration: none;
+}
+#main_Drivers, #main_Teams{
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    border-top: 30px solid transparent;
+    border-image: url(Design/stripes.png) 30 round;
+    box-sizing: border-box;
+    padding: 40px 200px;
+}
+.driver, .team{
+    background-color: rgba(0,0,0,0.7);
+    @extend %driver-team-text-styling;
+    padding: 20px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    img{
+        padding-right: 20px;
+        height: 100%;
+    }
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    .driverDetails, .teamDetails{
+        h2{
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+        h3{
+            font-weight: normal;
+            color: #999;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+}
+.driver img{
+    height: 20vw;
+}
